@@ -17,7 +17,7 @@
       <h3 class="tw-my-32" v-for="n of 33" :key="n"> linpan</h3>
     </div>
     <div class="footer-input  tw-w-full tw-bg-red-300">
-      <div class="tw-flex tw-justify-between tw-items-center">
+      <div class="tw-flex">
         <div class="">
           <button type="button" class="tw-inline-flex tw-items-center tw-justify-center tw-rounded-full tw-h-12 tw-w-12 tw-transition tw-duration-500 tw-ease-in-out tw-text-gray-500 hover:tw-bg-gray-300 focus:tw-outline-none">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="tw-h-6 tw-w-6 tw-text-gray-600">
@@ -25,7 +25,7 @@
             </svg>
           </button>
         </div>
-        <input type="text" placeholder="Write" class="w-full focus:tw-outline-none focus:tw-placeholder-gray-400 tw-bg-blue-500">
+        <input type="text" placeholder="Write" class="focus:tw-outline-none focus:tw-placeholder-gray-400 tw-bg-blue-500 tw-px-0 tw-flex-grow">
         <div>
           <button type="button" class="tw-inline-flex tw-items-center tw-justify-center tw-rounded-full tw-h-10 tw-w-10 tw-transition tw-duration-500 tw-ease-in-out tw-text-gray-500 hover:tw-bg-gray-300 focus:tw-outline-none">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="tw-h-6 tw-w-6 tw-text-gray-600">
